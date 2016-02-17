@@ -31,4 +31,10 @@ public class Rectangle2Test {
     Rectangle2 testRectangle2 = new Rectangle2(2, 2);
     assertEquals(true, testRectangle2.isSquare());
   }
+
+  @Test
+  public void area_returnsTheAreaOfTheRectangle_450() {
+  Rectangle2 testRectangle = new Rectangle2(15, 30);
+  assertEquals(450, testRectangle.area());
+}
 }
